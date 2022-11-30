@@ -1,0 +1,31 @@
+:root {
+  --gold: #D3AB57;
+  --green: #627362;
+  --green-transparent:rgba(98, 115, 98, .8);
+  --mint: #B2C4B3;
+  --gray: #B2C4B3;
+  --black: #202020;
+  --white: #fff;
+  --font-primary: 'Noto Serif', serif;
+  --font-heading: 'Playfair Display', serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-size: 10px;
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
+
+.floh_logo {
+
+}
