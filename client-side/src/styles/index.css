@@ -20,12 +20,29 @@
 body, html {
   font-size: 10px;
   font-family: var(--font-primary);
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
 }
 
-.floh_logo {
+h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+}
 
+h2 { 
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.floh_logo {
+  width: 10rem;
+  position: absolute;
 }

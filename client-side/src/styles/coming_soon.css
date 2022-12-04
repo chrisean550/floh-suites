@@ -7,5 +7,24 @@
     no-repeat
     center
     center;
-  padding: 1rem;
+  padding: 2.5rem;
+}
+
+.content_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  height: inherit;
+  width: inherit;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.content {
+  max-width: 50rem;
+  color: var(--white);
+}
+
+.content > h1, h2, p {
+  margin: 3rem 0;
 }

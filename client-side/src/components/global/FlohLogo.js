@@ -1,6 +1,12 @@
+import logo from '../../assets/logos/logo.png';
+
 const FlohLogo = () => {
   return(
-    <img src='./../../assets/logos/Logo.svg' alt='floh suites'/>
+    <img 
+      src={logo}
+      alt='floh suites'
+      className='floh_logo'
+    />
   );
 }
 
