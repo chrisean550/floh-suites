@@ -12,9 +12,9 @@ const Content = () =>{
       <div className='content'>
         <h2> Like to stay in the loop? </h2>
         <p> Subscribe to receive surveys & exclusive updates.</p>
-        <form>
-          <input type='text' />
-          <button>Subscribe</button>
+        <form className='subscribe_form'>
+          <input type='text' className='subscribe_input'/>
+          <button className='subscribe_button'>Subscribe</button>
         </form>
       </div>
     </div>

@@ -37,12 +37,30 @@ h2 {
   line-height: 4rem;
 }
 
-p {
+p, input, button {
   font-size: 2rem;
   line-height: 3rem;
+  font-family: var(--font-primary);
+}
+
+form {
+
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 2rem;
 }
 
 .floh_logo {
   width: 10rem;
   position: absolute;
+  margin: 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body, html {
+    font-size: 8px;
+  }
 }
